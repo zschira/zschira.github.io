@@ -1,0 +1,15 @@
+---
+title: R notebooks
+---
+
+<!-- link to main stylesheet -->
+<link rel="stylesheet" type="text/css" href="/css/screen.css">
+<div id="R">
+	<h1><a href="index.html">{{"Earth Lab Tutorial Notebooks"}}</a></h1>
+	<h2>R Notebooks</h2>
+	<ul class="R_nb">
+		{% for R_nb in site.categories.R %}
+			<span>{{"R"}}</span> &raquo; <a href="{{ R_nb.url }}">{{ R_nb.title }}</a><br />
+		{% endfor %}
+	</ul>
+</div>
