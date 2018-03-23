@@ -17,8 +17,8 @@ title: Working title
 email: zasc3143@colorado.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Zach's Awesome blog so everyone can keep up to date with his stuff
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://zschirablog.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zschira
 
 # Build settings
